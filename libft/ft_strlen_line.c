@@ -17,7 +17,7 @@ int	ft_strlen_line(char *str)
 	int	i;
 
 	i = 0;
-	while (str[i] != "\n" && str[i])
+	while (str[i] != '\n' && str[i])
 		i++;
 	return (i);
 }

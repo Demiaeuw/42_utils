@@ -55,9 +55,9 @@ NAME = libft.a
 OBJS = $(SRCS:.c=.o)
 OBJSBONUS = $(BONUS:.c=.o)
 
-all: $(NAME)
+all: $(NAME) bonus
 
-$(NAME): $(OBJS)
+$(NAME): $(OBJS) 
 	ar -rc $(NAME) $(OBJS)
 
 .c.o:

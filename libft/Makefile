@@ -31,10 +31,7 @@ SRCS =	ft_atoi.c\
 	ft_memset.c\
 	ft_memmove.c\
 	ft_bzero.c\
-	ft_split.c\
-	ft_strcmp.c\
-	ft_strlen_line.c\
-	ft_strncpy.c
+	ft_split.c
 
 BONUS = ft_lstnew_bonus.c\
 	ft_lstadd_front_bonus.c\
@@ -46,6 +43,15 @@ BONUS = ft_lstnew_bonus.c\
 	ft_lstiter_bonus.c\
 	ft_lstmap_bonus.c
 
+AJOUT =	ft_strcmp.c\
+	ft_strlen_line.c\
+	ft_strncpy.c\
+	ft_max.c\
+	ft_swap_bits.c\
+	ft_print_bits.c\
+	ft_reverse_bits.c\
+	ft_atoi_base.c
+
 CC = cc
 RM = rm -rf
 CFLAGS = -Wall -Wextra -Werror
@@ -54,8 +60,9 @@ NAME = ../utils/libft.a
 
 OBJS = $(SRCS:.c=.o)
 OBJSBONUS = $(BONUS:.c=.o)
+OBJSAJOUT = $(AJOUT:.c=.o)
 
-all: $(NAME) bonus
+all: $(NAME) bonus ajout
 
 $(NAME): $(OBJS) 
 	ar -rc $(NAME) $(OBJS)
@@ -64,7 +71,7 @@ $(NAME): $(OBJS)
 	$(CC) $(CFLAGS) -o $@ -c $<
 
 clean: 
-	$(RM) $(OBJS) $(OBJSBONUS)
+	$(RM) $(OBJS) $(OBJSBONUS) $(OBJSAJOUT)
 
 fclean: clean
 	$(RM) $(NAME)
@@ -73,3 +80,6 @@ re: fclean $(NAME)
 
 bonus: $(OBJS) $(OBJSBONUS)
 	ar -rc $(NAME) $(OBJS) $(OBJSBONUS)
+
+ajout: $(OBJS) $(OBJSAJOUT)
+	ar -rc $(NAME) $(OBJS) $(OBJSAJOUT)

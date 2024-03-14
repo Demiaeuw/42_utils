@@ -1,4 +1,4 @@
-NAME = libgnl.a
+NAME = ../utils/libgnl.a
 
 CC = gcc
 CFLAGS = -Wall -Wextra -Werror

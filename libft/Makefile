@@ -50,7 +50,7 @@ CC = cc
 RM = rm -rf
 CFLAGS = -Wall -Wextra -Werror
 
-NAME = libft.a
+NAME = ../utils/libft.a
 
 OBJS = $(SRCS:.c=.o)
 OBJSBONUS = $(BONUS:.c=.o)

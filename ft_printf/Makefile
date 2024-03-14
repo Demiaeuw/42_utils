@@ -20,7 +20,7 @@ CC = cc
 RM = rm -f
 CFLAGS = -Wall -Werror -Wextra -I
 
-NAME = libftprintf.a
+NAME = ../utils/libftprintf.a
 
 INCLUDES = includes
 

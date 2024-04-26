@@ -12,7 +12,7 @@
 
 #ifndef LIBFT_H
 # define LIBFT_H
-# include "pipex.h"
+# include "include.h"
 
 /*				VERIF					*/
 int		ft_isalpha(int c);

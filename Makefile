@@ -11,6 +11,8 @@ OTHER = srcs/utils/ft_printf/ft_printf00.c\
 	srcs/utils/ft_printf/ft_printf02.c\
 	srcs/utils/gnl/get_next_line00.c\
 	srcs/utils/gnl/get_next_line01.c\
+	srcs/utils/libft/free_str_tab.c\
+	srcs/utils/libft/free_str.c\
 	srcs/utils/libft/ft_atoi.c\
 	srcs/utils/libft/ft_bzero.c\
 	srcs/utils/libft/ft_calloc.c\

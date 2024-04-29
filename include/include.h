@@ -1,5 +1,5 @@
-#ifndef PIPEX_H
-# define PIPEX_H
+#ifndef INCLUDE_H
+# define INCLUDE_H
 # include <unistd.h>
 # include <stdlib.h>
 # include <stdio.h>
@@ -11,7 +11,6 @@
 # include "ft_printf.h"
 # include "get_next_line.h"
 # include "libft.h"
-
 
 int	main(void);
 

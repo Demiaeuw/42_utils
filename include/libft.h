@@ -6,7 +6,7 @@
 /*   By: acabarba <acabarba@student.42perpignan.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/02 15:51:02 by acabarba          #+#    #+#             */
-/*   Updated: 2024/04/26 23:35:16 by acabarba         ###   ########.fr       */
+/*   Updated: 2024/04/29 13:58:32 by acabarba         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,7 +17,7 @@
 /*				VERIF					*/
 int		ft_isalpha(int c);
 int		ft_isdigit(int c);
-int    	ft_isdigit_str(char **str);
+int		ft_isdigit_str(char **str);
 int		ft_isalnum(int c);
 int		ft_isascii(int c);
 int		ft_isprint(int c);

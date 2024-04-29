@@ -1,3 +1,15 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   get_next_line00.c                                  :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: acabarba <acabarba@student.42perpignan.    +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2024/04/29 13:28:14 by acabarba          #+#    #+#             */
+/*   Updated: 2024/04/29 13:28:35 by acabarba         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
 #include "../../../include/get_next_line.h"
 
 char	*get_next_line(int fd)
@@ -111,4 +123,3 @@ char	*gnl_clean_static(char *stash)
 	}
 	return (new_stash);
 }
-

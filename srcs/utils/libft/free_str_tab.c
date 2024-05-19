@@ -19,7 +19,7 @@ void	free_str_tab(char **str)
 	i = 0;
 	while (str[i])
 	{
-		liberer_str(str[i]);
+		free_str(str[i]);
 		i++;
 	}
 	free(str);

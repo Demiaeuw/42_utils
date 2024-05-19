@@ -12,6 +12,13 @@
 
 #include "../../../include/libft.h"
 
+void	liberer_str(char *str)
+{
+	if (str)
+		free(str);
+	return ;
+}
+
 void	free_str(char *str)
 {
 	free(str);

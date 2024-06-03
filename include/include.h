@@ -6,8 +6,6 @@
 # include <stdarg.h>
 # include <fcntl.h>
 # include <string.h>
-# include <stdarg.h>
-# include <fcntl.h>
 # include "ft_printf.h"
 # include "get_next_line.h"
 # include "libft.h"
